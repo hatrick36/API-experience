@@ -84,7 +84,7 @@ class td_auth(object):
                    'access_type': 'offline',
                    'code': self.access_code,
                    'client_id': client_id,
-                   'redirect_uri': 'http://32.211.92.157'}
+                   'redirect_uri': 'LOCAL HOST'}
         # post data for token
         authreply = requests.post(url, headers=headers, data=payload)
         # convert json-dict
